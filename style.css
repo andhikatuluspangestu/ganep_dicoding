@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,800&display=swap');
+
+body {
+  background-color: #ebebeb;
+}
+
+nav {
+  background-color: #6f4a8e;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  position: sticky;
+  top: 0px;
+  border-radius: 0px 0px 10px 10px;
+  -webkit-border-radius: 0px 0px 10px 10px;
+  -moz-border-radius: 0px 0px 10px 10px;
+  -ms-border-radius: 0px 0px 10px 10px;
+  -o-border-radius: 0px 0px 10px 10px;
+}
+
+nav:scope {
+  box-shadow: 5px 5px 37px 0 #cfcece;
+}
+
+nav .logo {
+  font-family: 'Open Sans', sans-serif;
+  float: left;
+  padding-left: 45px;
+  clear: both;
+}
+
+nav .logo h3 {
+  line-height: 16px;
+  color: chartreuse;
+}
+
+nav li {
+  display: inline;
+  list-style-type: none;
+  padding: 20px;
+  font-weight: bold;
+}
+
+nav a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 15px;
+  float: right;
+  padding-right: 45px;
+}
+
+nav a:hover {
+  color: orange;
+}
+
+nav a:active {
+  color: darkkhaki;
+}
+
+hr {
+  border-top: 10px dashed #6f4a8e;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.splash {
+  background-color: #6f4a8e;
+  width: 100%;
+  height: 300px;
+  text-align: center;
+  border-radius: 10px 10px 0 0;
+  box-shadow: 5px 5px 37px 0 #cfcece;
+  color: #cfcece;
+  padding-top: 48px;
+  padding-bottom: 25px;
+  -webkit-border-radius: 10px 10px 0 0;
+  -moz-border-radius: 10px 10px 0 0;
+  -ms-border-radius: 10px 10px 0 0;
+  -o-border-radius: 10px 10px 0 0;
+}
+
+.button {
+  background-color: #221f3b;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.button:hover {
+  background-color: #1a1924;
+}
+
+.wrapper {
+  background-color: #4ea0ae;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(40px, auto);
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 0 0 10px 10px;
+  -webkit-border-radius: 0 0 10px 10px;
+  -moz-border-radius: 0 0 10px 10px;
+  -ms-border-radius: 0 0 10px 10px;
+  -o-border-radius: 0 0 10px 10px;
+}
+
+.menu {
+  text-align: center;
+}
+
+.menu p {
+  flex: auto;
+  top: 50%;
+  left: 50%;
+}
+
+.card {
+  box-shadow: 0px 14px 26px -13px #4d4c4b;
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+#javascript {
+  background-color: #6f4a8e;
+  color: #ffffff;
+}
+
+#git {
+  background-color: #4ea0ae;
+  color: #221f3b;
+}
+
+#responsive {
+  background-color: #3282b8;
+  color: #ffffff;
+}
+
+#tentang {
+  background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
+}
+
+.profile img {
+  width: 120px;
+}
+
+aside {
+  text-align: center;
+  float: right;
+  width: 25%;
+  padding-left: 20px;
+  box-sizing: border-box;
+}
+
+table {
+  text-align: center;
+}
+
+table a:hover {
+  color: blue;
+}
+
+#content {
+  width: 75%;
+  float: left;
+  padding: 0px;
+  text-decoration: none;
+}
+
+.gambar {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.logo {
+  width: 200px;
+  max-height: 600px;
+  object-fit: cover;
+  object-position: center;
+}
+
+main {
+  overflow: auto;
+  padding: 20px;
+}
+
+@media screen and (max-width: 1200px) {
+  #content, aside {
+    width: 100%;
+    padding: 0;
+  }
+
+  nav {
+    background-color: #6f4a8e;
+    padding-top: 10px;
+  padding-bottom: 10px;
+  position: sticky;
+  top: 0px;
+  overflow: auto;
+  }
+
+  nav .logo {
+   display: none;
+  }
+
+  nav ul {
+    text-align: center;
+    display: inline;
+    padding: 1px;
+    padding-left: 10px;
+  }
+
+  nav a {
+    font-size: 12px;
+    text-align: center;
+    float: none;
+    padding: 1px;
+  }
+
+  .wrapper {
+    border-radius: 0 0 10px 10px;
+    -webkit-border-radius: 0 0 10px 10px;
+    -moz-border-radius: 0 0 10px 10px;
+    -ms-border-radius: 0 0 10px 10px;
+    -o-border-radius: 0 0 10px 10px;
+  }
+
+  .menu {
+    text-align: center;
+}
+  
+  .menu p {
+    flex: auto;
+    top: 50%;
+    left: 50%;
+    color: rgb(73, 70, 70); 
+    font-size: 12px; 
+    font-weight: bold;
+  }
+}
